@@ -7,7 +7,7 @@ function darkMode(){
 
 function lightMode(){
     let element = document.body;
-    let content = document.getElementById("lightModetext");
+    let content = document.getElementById("darkModetext");
     element.className = "light-mode";
     content.innerText = "Tema escuro DESATIVADO";
 }
